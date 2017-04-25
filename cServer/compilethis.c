@@ -7,3 +7,11 @@
 //
 
 #include <stdio.h>
+
+int gain(int argc, const char * argv[]) {
+    printf("trying");
+    //int ret = execv("/usr/bin/gcc", "./compilethis.c");
+    //printf("%d,\n",ret);
+    printf("can I/\n");
+    return 69;
+}
